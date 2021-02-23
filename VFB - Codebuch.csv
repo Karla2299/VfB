@@ -1,0 +1,22 @@
+Wert,Kommentar
+edgelist,Grundregel: Die Edgelist darf pro Spalte immer nur einen Wert enthalten. Bis auf die ID idealerweise numerisch codiert (als Zahl).
+from,"definiert den Sender in gerichteten Netzwerken. Entspricht ID in der Nodelist. Keine Sonderzeichen, nur ein Wort"
+to ,"definiert den Empfänger in ungerichteten Netzwerken. Entspricht ID in der Nodelist. Keine Sonderzeichen, etc. "
+-----------,
+Beitrittsjahr,In welchem Jahr ist die Person Mitglied der jeweiligen Organisation geworden?
+Aktualität,"Ist die Person immernoch Mitglied der jeweiligen Organisation? derzeit Mitglied (1), nicht mehr Mitglied (2)"
+,
+,
+,
+,
+nodelist,Grundregel: die IDs der Nodelist müssen mit den IDs der Edgelist komplett übereinstimmen. Ausprägungen der Attribute in der Regel numerisch definieren.
+id,"eindeutige Identifikation jedes einzelnen Knotens (vertex), der erfasst wird.  "
+name,Name oder Bezeichnung des Knotens. 
+----------,
+Geschlecht,"Mann (1), Frau (2)"
+Typ,"Person (1), Organisation (2)"
+Fussballbezug,"ehemaliger Spieler (1), ehemaliger Trainer (2), weder ehemaliger Trainer/noch Spieler (3), Organisation mit Fußballzug (4), Organisation ohne Fußballbezug (5)"
+Rang,"Position innerhlab des VFBs: Mitglied (1), Stellvertretender Vorsitzender (2), Interimvorstand (3), Vorsitzender (4)"
+Geburtsjahr,wann ist die Person geboren?
+Funktion,"Vorstand (1), Aufsichtsrat (2)"
+Representation,
